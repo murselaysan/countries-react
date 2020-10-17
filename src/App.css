@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color:rgb(245, 230, 220);
+}
+
+.App-header {
+  background-color:hsl(209, 23%, 22%);
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ 
+}
+.country, .countryDetail {
+  margin: 10px;
+  width: 20%;
+  background-color: white;
+ 
+  }
+
+  .country {
+    cursor: pointer;
+  }
+
+ul {
+  list-style-type: none;
+  display: inline;
+ }
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  justify-content:space-evenly;
+  padding: 30px 45px 30px 45px;
+}
+
+.form-control {
+  width: 300px;
+  border: 2px solid hsl(209, 23%, 22%);;
+}
+
+.listItem {
+  cursor: pointer;
+}
+
+.smallFlag {
+  width: 100px;
+  height: auto;
+}
+
+.header-image{
+  width: 120px;
+  min-height: 80px;
+}
+
